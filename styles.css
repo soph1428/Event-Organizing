@@ -3,13 +3,11 @@ div {
     padding-right: 7px;
     padding-bottom: 10px;
     padding-left: 7px;
-}
-body {
+} body {
     text-align: center;
     font-family:verdana;
     background-color:#15cdd3;
-}
-.button {
+} .button {
     background-color: #d400ff;
     border-color: black;
     color: black;
@@ -20,12 +18,10 @@ body {
     font-family: verdana;
     border-radius: 20px;
     margin-bottom: 2%;
-  }
-.button:hover {
+} .button:hover {
     background-color: #f700ff;
     color: black;
-}
-.labelStyles {
+} .labelStyles {
     background-color: #d400ff;
     border-color: black;
     color: black;
@@ -36,8 +32,7 @@ body {
     border-width: 4px;
     font-family: verdana;
     border-radius: 20px;
-}
-.input {
+} .input {
     margin-right: 18.75%;
     background-color: #d400ff;
     color: black;
@@ -48,9 +43,8 @@ body {
     margin: 4px 2px;
     font-family: verdana;
     border-radius: 20px;
-}
-#events {
+} #events {
     height: 300px;
     background-color: #d400ff;
-    overflow: auto
+    overflow: auto;
 }
