@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planning Guide</title>
+<link rel="icon" href="logo.webp">
+<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<button id="createEvent" class="button">Create Event</button><br hidden>
+<div id="createEventOptions" hidden>
+    <label class="labelStyles">Start Time: </label>
+    <input id="startDate" class="input" type="datetime-local"><br>
+    <label class="labelStyles">End Time: </label>
+    <input id="endDate" class="input" type="datetime-local"><br>
+    <label class="labelStyles">Location: </label>
+    <input id="eventLocation" class="input"><br>
+    <label class="labelStyles">Title: </label>
+    <input id="title" class="input"><br>
+    <button id="submitEvent" class="button">Create</button><br>
+    <button id="cancel" class="button">Cancel</button>
+</div><br>
+<button id="editEvent" class="button">Edit Event</button>
+<div id="editEventOptions" hidden>
+    <label class="labelStyles">Which event?</label>
+    <select class="input">
+    </select>
+    <div id="eventOptions">
+    </div>
+    <button id="cancel" class="button">Cancel</button>
+</div><br>
+<button id="viewEvents" class="button">View Events</button>
+<div id="events" hidden></div><br>
+<button id="deleteEvent" class="button">Delete Event</button>
+<div id="deleteEventOptions" hidden>
+    <label class="labelStyles">Which event?</label>
+    <select class="input">
+    </select><br><br>
+    <button id="delete" class="button">Delete</button><br>
+    <button id="cancel" class="button">Cancel</button>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
