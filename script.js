@@ -22,7 +22,7 @@ function changeButtonOptionsVisibility(buttonId, visibility, id) {
     if (!eventDropdown.parentElement.hidden || !deleteEventDropdown.parentElement.hidden) updateEvents()
     updateLocalStorage()
 } for (var elem of document.body.querySelectorAll(`*`)) {
-    elem.style.fontSize = `50px`
+    elem.style.fontSize = `30px`
     elem.style.textAlign = `center`
     if (elem.id == `cancel`) {
         elem.onclick = function() {
@@ -77,7 +77,7 @@ function changeButtonOptionsVisibility(buttonId, visibility, id) {
                     events.find(e => e == eventChosen).endDate = document.getElementById(`endDateEventOption`).value
                     events.find(e => e == eventChosen).eventLocation = document.getElementById(`eventLocationEventOption`).value
                     events.find(e => e == eventChosen).title = document.getElementById(`titleEventOption`).value
-                    changeButtonOptionsVisibility(`event`, false)
+                    changeButtonOptionsVisibility(`editEvent`, false)
                 }
             } if (elem.id != `cancel`) eventOptions.append(elem)
         }

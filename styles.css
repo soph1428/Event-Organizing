@@ -44,7 +44,7 @@ div {
     font-family: verdana;
     border-radius: 20px;
 } #events {
-    height: 300px;
+    height: 210px;
     background-color: #d400ff;
     overflow: auto;
 }
